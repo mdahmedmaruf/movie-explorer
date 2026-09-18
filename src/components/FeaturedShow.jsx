@@ -18,6 +18,8 @@ export default function FeaturedShow() {
 
     return (
         <div className='container mx-auto py-12 px-4'>
+            {loading && <p className='font-lato text-base'>Loading...</p>}
+            {error && <p className='font-lato text-base'>Error: {error}</p>}
             {!loading &&
                 !error &&
                 featuredGenreShows.map((genre) => {

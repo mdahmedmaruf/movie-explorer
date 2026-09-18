@@ -1,18 +1,27 @@
-# React + Vite
+# 🎬 MovieExplorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React application for discovering, searching, and filtering TV shows using the **TVMaze API**. Built with **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- **Home Page**: Featured shows organized into popular genre grids (Action, Thriller, Comedy, Romance, Drama).
+- **Shows Directory**: Complete shows list with live search and dynamic sorting.
+- **TVMaze-Style Sorting**: Sort shows by _Most popular_, _Highest rating_, _Lowest rating_, _A to Z_, _Z to A_, _Most recently added_, and _Least recently added_.
+- **Custom Hook (`useShows`)**: Centralized data fetching with support for live search queries.
+- **Interactive Modal**: View full show details including cover poster, average rating, premiere year, language, summary HTML, and genre tags.
+- **Responsive Design**: Mobile-first design styled with Tailwind CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# movie-explorer
-# movie-explorer
+- **Frontend**: React (Hooks, Context/State)
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Data Source**: [TVMaze REST API](https://www.tvmaze.com/api)
+
+## Live Link
+
+- **MovieExplorer**: [MovieExplorer Live](https://movie-explorer-bootcamp-next-level.vercel.app/)
