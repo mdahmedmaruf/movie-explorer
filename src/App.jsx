@@ -1,5 +1,11 @@
-import ShowView from './pages/ShowView'
+import FeaturedShow from './components/FeaturedShow'
+import HeroSection from './components/HeroSection'
 
 export default function App() {
-    return <ShowView />
+    return (
+        <>
+            <HeroSection />
+            <FeaturedShow />
+        </>
+    )
 }
